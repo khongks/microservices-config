@@ -1,5 +1,5 @@
 server:
-  port: 8180
+  port: 8762
 
 turbine:
   appConfig: card-statement-composite,card-service,statement-service
