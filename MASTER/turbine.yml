@@ -2,6 +2,6 @@ server:
   port: 8989
 
 turbine:
-  appConfig: card-statement-composite
+  appConfig: card-statement-composite,card-service,statement-service
   aggregator:
     clusterConfig: CARD-STATEMENT-COMPOSITE
