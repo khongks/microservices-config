@@ -2,6 +2,6 @@ server:
   port: 0
 
 turbine:
-  appConfig: card-statement-composite,card-service,statement-service
+  appConfig: edge-server,card-statement-composite,card-service,statement-service
   aggregator:
-    clusterConfig: CARD-STATEMENT-COMPOSITE
+    clusterConfig: EDGE-SERVER,CARD-STATEMENT-COMPOSITE,CARD-SERVICE,STATEMENT-SERVICE
