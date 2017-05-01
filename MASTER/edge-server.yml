@@ -13,12 +13,12 @@ zuul:
     card-service:
         path: /card-service/**
         url: http://localhost:9000/
-        strip-prefix: false
+        strip-prefix: true
     statement-service:
         path: /statement-service/**
         url: http://localhost:9001/
-        strip-prefix: false
+        strip-prefix: true
     card-statement-composite:
         path: /card-statement-composite/**
         url: http://localhost:9002/
-        strip-prefix: false
+        strip-prefix: true
