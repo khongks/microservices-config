@@ -1,2 +1,7 @@
 server:
   port: 8179
+
+turbine:
+  appConfig: card-statement-composite
+  aggregator:
+    clusterConfig: CARD-STATEMENT-COMPOSITE
