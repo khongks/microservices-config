@@ -12,10 +12,13 @@ zuul:
   routes:
     card-service:
         path: /card-service/**
-        url: http://localhost:9000
+        serviceId: card-service
+        stripPrefix: true
     statement-service:
         path: /statement-service/**
-        url: http://localhost:9001
+        serviceId: statement-service
+        stripPrefix: true
     card-statement-composite:
         path: /card-statement-composite/**
-        url: http://localhost:9002
+        serviceId: card-statement-composite
+        stripPrefix: true
